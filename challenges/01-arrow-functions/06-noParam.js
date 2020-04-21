@@ -3,10 +3,15 @@
 // you should use the empty () syntax of _ syntax.
 
 
-function noParam() {
+// function noParam() {
 
+// }
+
+let noParam = () => {
+    let a = 'Oi';
+    let b = 'Tchau';
+    return `$a + $b`
 }
-
 
 
 
