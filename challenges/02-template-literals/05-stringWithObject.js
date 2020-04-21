@@ -4,7 +4,7 @@
 
 const stringWithObject = (array, index, key) => {
 
-    return `The information you requested is ${array.index}. Have a nice day!`
+    return `The information you requested is ${array[index][key]}.  Have a nice day!`
 };
 
 //include the property from the object at the requested array index

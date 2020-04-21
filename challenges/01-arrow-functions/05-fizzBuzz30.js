@@ -26,18 +26,18 @@ let fizzBuzz30 = () => {
     let array = [];
     let fizz = 'fizz';
     let buzz = 'buzz';
-    for (i = 0; i <= 30; i++){
+    for (i = 1; i <= 30; i++){
         if (i % 3 === 0 && i % 5 === 0){
-            console.log(fizz + buzz);
+            array.push (fizz + buzz);
         } else if (i % 3 === 0) {
-            console.log(fizz);
+            array.push (fizz);
         } else if (i % 5 === 0) {
-            console.log(buzz);
+            array.push (buzz);
         } else {
-            console.log(i);
+            array.push (i);
         }
     }
-    return array[i];
+    return array; 
 }
 
 
